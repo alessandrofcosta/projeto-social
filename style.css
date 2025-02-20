@@ -26,12 +26,14 @@ iframe {
 img {
     height: 50px;
     border-radius: 50%;
-    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out, border 0.1s ease-out;
+    box-sizing: border-box;
 }
 
 img:hover {
     transform: scale(1.1);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid white;
 }
 #social {
     top: 0;
